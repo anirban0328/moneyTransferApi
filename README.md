@@ -1,6 +1,8 @@
 Money Transfer REST API
 
-A RESTful API that allows transfer money from one Bank Account to another. It also allows creation of new account details.
+A RESTful API that allows transfer of money from one Bank Account to another. It also allows creation of new account details and also supports withdraw and deposit of money into individual account.
+
+Authentication is not supported nor currency conversion is supported.
 
 This API guarantees the data consistency in all cases even if there are large number of concurrent users. It has been achieved by using lock during transaction and using HashTable to store in-memory data.
 
@@ -18,7 +20,7 @@ Features
 2. Deposit money to an account
 3. Withdraw money from an account.
 4. Transfer money between accounts.
-5. Store all transactions and accounts in-memory
+5. Store all transactions and accounts in-memory.
 6. Error capturing and returning appropriate HTTP response codes.
 
 Requires
@@ -33,7 +35,6 @@ Start Application
 2. Another way to execute is to run directly: java -jar target/MoneyTransferApi-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 API
-
 Account
 
 Creating an account
@@ -42,7 +43,7 @@ The server will respond with information about the created account in a JSON for
 {
   "id" : 1765465769,
   "balance" : 0,
-  "transactions" : [ ]
+  "transactions" : []
 }
 
 Get an account
@@ -51,7 +52,7 @@ The server will respond with information about the created account in a JSON for
 {
   "id" : 1875465768,
   "balance" : 0,
-  "transactions" : [ ]
+  "transactions" : []
 }
 
 Get all accounts
