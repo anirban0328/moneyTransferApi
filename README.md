@@ -2,7 +2,7 @@
 
 A RESTful API that allows transfer of money from one Bank Account to another. It also allows creation of new account details and also supports withdraw and deposit of money into individual account.
 
-Authentication is not supported nor currency conversion is supported.
+Authentication is not supported nor currency conversion is supported. Exception Handling is taken care for all cases and will throw HTTP 400 Bad Request error whenever invalid details are provided. 
 
 This API guarantees the data consistency in all cases even if there are large number of concurrent users. It has been achieved by using lock during transaction and using HashTable to store in-memory data.
 
@@ -119,4 +119,6 @@ GET request: http://localhost:8080/transactions
 ```
 
 Exception Handing
+```
 If there are any error or exception, then HTTP 400 bad request error will be thrown with error message.  
+```
