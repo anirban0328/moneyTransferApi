@@ -3,7 +3,6 @@ package moneytransferapi;
 import account.Account;
 import dao.Dao;
 import transaction.Transaction;
-import utils.Utils;
 
 import org.junit.Assert;
 import org.junit.Before;
