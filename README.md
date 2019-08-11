@@ -41,7 +41,7 @@ The API is written in Java 8 and uses Undertow's embedded REST server.
    ```
    java -jar MoneyTransferApi-0.0.1-SNAPSHOT-jar-with-dependencies.jar
    ```
-2. Another way to execute is to run directly 
+2. Another way to execute is to clone and run directly 
    ```
    java -jar target/MoneyTransferApi-0.0.1-SNAPSHOT-jar-with-dependencies.jar
    ```
