@@ -77,7 +77,7 @@ Example response:
     "successful" : true
   }]
   
-Transfer
+Transaction
 
 Deposit money
 POST request: http://localhost:8080/account/deposit 
