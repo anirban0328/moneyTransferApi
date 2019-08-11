@@ -28,7 +28,7 @@ The API is written in Java 8 and uses Undertow's embedded REST server.
 2. Maven
 
 ## Start Application
-1. Clone the repo and run the command: mvn package
+1. Clone the repo and run the command ```mvn package```
    Ensure that maven is installed in the system and JAVA_HOME is set.
    It will create jar file ```MoneyTransferApi-0.0.1-SNAPSHOT-jar-with-dependencies.jar```
    Execute using command ```java -jar MoneyTransferApi-0.0.1-SNAPSHOT-jar-with-dependencies.jar```
