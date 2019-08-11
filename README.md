@@ -1,4 +1,4 @@
-Money Transfer REST API
+# Money Transfer REST API
 
 A RESTful API that allows transfer of money from one Bank Account to another. It also allows creation of new account details and also supports withdraw and deposit of money into individual account.
 
@@ -8,7 +8,7 @@ This API guarantees the data consistency in all cases even if there are large nu
 
 The API is written in Java 8 and uses Undertow's embedded REST server.
 
-Libraries used
+## Libraries used
 1. Jackson Core 2.2.3
 2. Jackson Databind 2.9.9.3
 3. Undertow Core 2.0.23
