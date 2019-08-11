@@ -1,6 +1,6 @@
 # Money Transfer REST API
 
-A RESTful API that allows transfer of money from one Bank Account to another. It also allows creation of new account details and also supports withdraw and deposit of money into individual account.
+A RESTful API that allows transfer of money from one Bank Account to another. It allows creation of new account details and also supports withdraw and deposit of money into individual account.
 
 Authentication is not supported nor currency conversion is supported. Exception Handling is taken care for all cases and will throw HTTP 400 Bad Request error whenever invalid details are provided. 
 
